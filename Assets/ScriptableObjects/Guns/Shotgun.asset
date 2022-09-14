@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1dfe56223bc874596c54f93bb90f3f, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4269574066795838017, guid: 912be80e8a0ebb94daa20e731d51399a, type: 3}
+  previewImage: {fileID: 21300000, guid: a18430fc3245f7a4a854b11234acf48e, type: 3}
+  shot: {fileID: 8300000, guid: 62c57ec4497f0e24d807fe17b548f243, type: 3}
+  reload: {fileID: 0}
+  emptyFire: {fileID: 8300000, guid: b5cecaa847578644896876add528077f, type: 3}
+  name: Shotgun
+  type: 3
+  damage: 20
+  magazineSize: 6
+  shotVolume: 0.5
+  fireRate: 0.75
+  bloom: 50
+  recoil: 15
+  kickback: 0.3
+  recoilBloomFactor: 1
+  recoilRotateFactor: 1
+  recoilBloomIncreaseRate: 1
+  maxRecoilBloomAmount: 1
+  melee: 0
+  fullAuto: 0
+  shotgun: 1
